@@ -43,3 +43,42 @@ a:hover, a:active {
 .hwm-topbar {
   display: flex;
 }
+
+.navbar {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  background-color: rgb(54, 152, 255);
+
+  }
+  
+.navbar-first {
+  margin-right: auto;
+  padding-left: 50px !important;
+}
+
+.navbar-last {
+  padding-right: 20px !important;
+}
+
+#navbar a {
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+
+  }
+
+
+.separator {
+  height: 25px;
+  width: 5px;
+  margin: auto 0;
+  background-color: #000081;
+  justify-self:left;
+  border-radius: 5px;
+
+ }
