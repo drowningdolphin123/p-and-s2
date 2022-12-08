@@ -3,20 +3,20 @@
 /* Uncomment below if images are way too big.
 Selects all image tags and makes them 500px;
  */
-img {
+ img {
   width: 500px;
   margin: 20px;
   border: 2px solid;
 }
 
 .description{
-max-width: 1300px;
+max-width: 1430px;
 }
 
 .container {
   /* TODO add styles (hint: use flex!) https://www.w3schools.com/cssref/ */
   display: flex;
-  max-width: 1300px;
+  max-width: 1430px;
 }
 
 .washingmachine {
@@ -28,16 +28,16 @@ max-width: 1300px;
 }
 
 a:link, a:visited {
-  background-color: white;
+  background-color: rgb(54, 152, 255);
   color: black;
+  padding: 5px 10px;
   text-align: center;
-  text-decoration-line: underline;
-  text-decoration-style: dashed;
+  text-decoration: none;
   display: inline-block;
 }
 
 a:hover, a:active {
-  background-color: white;
+  background-color: rgb(162, 211, 255);
 }
 
 .hwm-topbar {
