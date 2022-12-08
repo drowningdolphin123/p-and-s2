@@ -82,3 +82,7 @@ a:hover, a:active {
   border-radius: 5px;
 
  }
+
+ .card { 
+  width: 700px;
+ }

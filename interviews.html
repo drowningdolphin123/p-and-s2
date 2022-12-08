@@ -88,9 +88,10 @@
       <a class="navbar-last" href="personab.html">Persona B</a>
     </div>
 <!--Legend element and course graph element borrowed from the critical review website.-->
-      <div class="description">
+      <div class="description" style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+        
         <h3>How Hegeman Hall Reacts to the Machines:</h3>
-        <p>
+        <div style="width: 700px; text-align: justify;">
           <ol>
             <li><b>How confident do you feel about using the new machines?</b></li>
             <ul>
@@ -154,7 +155,11 @@
               </li>
             </ul>
           </ol>
-        </p>
+        </div>
+        </div>
+
+        <div style="display: flex; flex-direction: column; padding-left: 50px;">
+
         <div id="legend">
           <svg width="325" height="70">
             <g class="legendLinear" transform="translate(20,20)">
@@ -180,9 +185,10 @@
             </g>
           </g>
         </g>
-      </svg>
-    </div>
-        <div id="course_graph"> 
+          </svg>
+        </div>
+
+        <div id="course_graph" > 
           <svg class="chart" width="100%" viewBox="0 0 1300 200">
             <g>
               <rect class="bar ratingNo-1" fill="rgb(216, 240, 255)" x="400" y="10" transform="translate(200,0)" style="width: 0px; height: 16px;">machine-confidence</rect>
@@ -232,7 +238,8 @@
               <text x="185" y="131" text-anchor="end">Positive Experience</text>
             </g>
           </svg>
-        </div>   
+        </div>  
+      </div> 
       </div>
     </div>
   </body>
